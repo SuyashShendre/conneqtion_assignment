@@ -2,7 +2,7 @@ import React from 'react'
 
 const Needhelp = () => {
     return (
-        <div>Needhelp</div>
+        <div className='center'>Needhelp</div>
     )
 }
 
