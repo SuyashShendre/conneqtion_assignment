@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 import Needhelp from './components/Needhelp';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
         <Route path="/register" element={<Register />} />
         <Route path="/needhelp" element={<Needhelp />} />
+        <Route path="*" element={<PageNotFound />} />
 
       </Routes>
     </>
